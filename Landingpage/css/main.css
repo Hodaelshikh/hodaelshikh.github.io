@@ -556,24 +556,28 @@ h2 {
 }
  /* fixing the first name input */
  #first {
-  width: 170px;
+   width: 80%;
+  max-width: 170px;
 
 
 }
  /* fixing the last name input */
  #last {
-  width: 170px;
+   width: 80%;
+  max-width: 170px;
 
 }
  
  /* fixing the email address input */
  #email {
-  width: 170px;
+   width: 80%;
+  max-width: 170px;
  }
 
  /* fixing the phone number input */
  #phone {
-  width: 170px;
+  width: 80%;
+  max-width: 170px;
  }
 
  /* fixing the checkbox and the agreement */
