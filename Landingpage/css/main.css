@@ -273,7 +273,8 @@ background-color: #ff8480;
 color: white;
 font-weight: bolder;
 font-size: medium;
-width: 150px;
+width:60%;
+max-width: 150px;
 border-radius: 8px;
 border: 0px solid;
 height: 40px;
@@ -453,8 +454,8 @@ h1 {
   
    /* change the calculate */
   .calculate {
-
-  width: 290px;
+width: 80%;
+  max-width: 290px;
   height: 30px;
   margin-top: 5px;
   margin-left: 10px;
@@ -647,8 +648,8 @@ width: 200px;
   
    /* change the calculate */
   .calculate {
-
-  width: 290px;
+width: 60%;
+  max-width: 290px;
   height: 30px;
   margin-left: -25px;
   }
