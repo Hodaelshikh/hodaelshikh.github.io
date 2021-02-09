@@ -1,0 +1,643 @@
+
+
+html, body {  
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7ff ;
+  max-width: 100%;
+}
+
+
+/*---- Organizing the header (logo)---- */
+
+
+.img1 {
+  width: 100px;
+  display: flex;
+ padding-left: 100px;
+
+ 
+}
+
+/*---- Organizing the body---- */
+
+ body {
+  background: url("images/bg-image/scooter.svg") no-repeat;
+  background-position: center 50% ;
+  background-size: 40%;
+  background-color: #f7f7ff ;
+
+
+
+}
+
+
+/* using the grid to style the page */
+.container {
+  
+display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20em;
+}
+
+/* fixing the heading 1 "want to be your own boss" */
+h1 {
+  font-weight: bold;
+  font-size: 85px;
+ 
+ }
+ /* Arranging the left heading and paragraph  */
+ .boss, .vehicle {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   margin-left: 30px;
+   margin-top: 60px;
+   padding-left: 30px;
+   margin-left: 50px ;
+ }
+
+ .vehicle {
+   font-size: large;
+ }
+ 
+ h1, p {
+   padding-left: 30px;
+   margin-left: 50px ;
+ }
+
+
+.container1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+
+/* organizing the apply now */
+.container2 {
+  width: 40%;
+  height: 90%;
+  border: 0px solid;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px 3px  #d9d9e0;
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: -60px;
+  display: flex;
+  flex-direction: column;
+  margin-right: -100px;
+  margin-left: 60px;
+ 
+}
+
+ h2, h3{
+margin-left: 20px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.eui {
+  font-weight: normal;
+  margin-top: -10px;
+}
+
+fieldset {
+  border: white;
+}
+ /* fixing the first name input */
+#first {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  border: none;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+
+}
+ /* fixing the last name input */
+ #last {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  border: none;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+
+}
+ 
+ /* fixing the email address input */
+ #email {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  border: none;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+ }
+
+ /* fixing the phone number input */
+ #phone {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  border: none;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+ }
+
+ /* fixing the checkbox */
+ #checkbox {
+margin-right: 400px;
+}
+
+ /* fixing the agreement */
+.agree {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+/* fixing the drive with us button */
+ .drive {
+   background-color: #57eeab;
+   font-weight: bold;
+   font-size: large ;
+   border-radius: 10px;
+   border: 0px solid;
+   height: 40px;
+   width: 400px;
+   margin-left: 30px;
+   margin-right: 20px;
+
+ }
+
+ /* fixing the applied and status  */
+
+ .appl {
+font-weight: lighter;
+font-size: small;
+ }
+
+ .status {
+   color: #ff8480;
+   font-weight: lighter;
+   font-size: small;
+   text-decoration: none;
+ }
+
+/* ----changing the footer ----*/
+/* Changing the footer colors, background and rerranging it*/
+footer {
+  margin-top: 200px;
+  height: 40px;
+   background-color: #fffd8c;
+   padding-bottom: 50px;
+}
+.container3 {
+
+  background-color: #fffd8c;
+}
+
+/* Changing the forms contents in the footer & organizing them */
+
+.note {
+ padding-top: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.hcc {
+  padding-left: 80px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -40px;
+}
+
+/* change the hours */
+.hours {
+  margin-right: 20px;
+  margin-left: -20px;
+  text-decoration: none;
+}
+
+#bh, #bc {
+  border-radius: 5px;
+}
+
+.hours input{
+  width: 60px;
+  height: 30px;
+  border: 0px solid;
+}
+
+/* change the city */
+
+.city {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.city input {
+  height: 30px;
+  border: 0px solid;
+  margin-left: 10px;
+}
+
+ /* change the calculate */
+.calculate {
+background-color: #ff8480;
+color: white;
+font-weight: bolder;
+font-size: medium;
+width: 150px;
+border-radius: 8px;
+border: 0px solid;
+height: 40px;
+}
+
+
+
+/* social media */
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.link {
+margin-right: 60px;
+margin-left:30px;
+margin-bottom: 50px;
+}
+
+ .twit, .face, .inst {
+  margin-left: 30px;
+  margin-bottom: 50px;
+
+}
+
+
+  
+/* ========Desktop Style========= */
+@media screen and (min-width: 968px) {
+  
+  /* change the size of the background image */
+
+  body {
+    background-position: center 60% ;
+    background-size: 50%;
+    position: fixed; 
+    overflow-x: scroll;
+    width: 100%;
+  
+  }
+  
+  .container3 {
+    padding-bottom: 2rem;
+  }
+
+  /* change the footer location */
+  
+  footer {
+      margin-top: 330px;
+ 
+    } 
+  
+}
+
+
+    /* =========== TABLET STYLES =================== */
+  /*---------- media query for the screen size-------*/
+  @media screen and  (max-width: 768px) {
+
+    /*---- Organizing the body---- */
+
+body {
+background-position: center 40%;
+background-size: 60%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+ 
+ }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .boss {
+      margin-top: -10px;
+    }
+ 
+    /* organizing the apply now */
+    /* organizing the position of the form of the apply now */
+    .container2 {
+  margin-left: 80px;
+  margin-top: 30px;
+  width: 70%;
+  height: fit-content;    
+}
+
+
+#checkbox {
+  margin-right: 450px;
+  }
+
+  h2, h3{
+    margin-left: 30px;
+    }
+
+     /* fixing the first name input */
+     #first {
+      width: 450px;
+    
+    
+    }
+     /* fixing the last name input */
+     #last {
+      width: 450px;
+    
+    }
+     
+     /* fixing the email address input */
+     #email {
+      width: 450px;
+     }
+    
+     /* fixing the phone number input */
+     #phone {
+      width: 450px;
+     }
+    
+     /* fixing the checkbox and the agreement */
+     #checkbox {
+    margin-left: 15px;
+    }
+    .agree {
+      font-size: small;
+    }
+    
+    
+    
+    /* fixing the drive with us button */
+     .drive {
+      width: 450px;
+      font-size: 15px;
+    
+     }
+ /* ----organizing the footer-- */
+
+  .social {
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+   margin-top: 60px;
+  
+  }
+
+.note {
+  margin-left: -10px;
+}
+
+
+  /*  change the hours margin and the hours input width*/ 
+  .hours {
+
+    margin-left: -20px;
+  }
+  
+
+  
+  /* change the city */
+  
+  .city {
+    margin-right: 5px;
+
+  }
+  
+
+  
+   /* change the calculate */
+  .calculate {
+
+  width: 290px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+  }
+  /* rearranging the social media icons */
+  .link {
+    order: 4;
+    }
+    
+     .twit {
+       order: 3;
+     }
+.inst {
+order: 2;
+    
+    }
+    .face {
+      order: 1;
+    }
+  }
+
+     /* =========== Mobile STYLES =================== */
+  /*---------- media query for the mobile size-------*/
+
+ @media screen and (max-width: 375px) {
+
+
+  .img1 {
+    width: 100px;
+    display: flex;
+   padding-left: 50px;
+  }
+
+  /* fixing the heading 1 "want to be your own boss" */
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+ 
+ }
+ /* Arranging the left heading and paragraph  */
+ .boss, .vehicle {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   margin-right: 10px;
+   margin-left: -5px;
+   padding-right: 50px;
+
+
+ }
+.boss {
+  margin-top: 40px;
+  margin-right: 10px;
+}
+ .vehicle {
+   font-size: large;
+   margin-top: -20px;
+   margin-right: 25px;
+ 
+ }
+ 
+ h1, p {
+   padding-left: 20px;
+   margin-left: 40px ;
+ }
+
+
+
+
+/* organizing the apply now */
+/* changing the size and the fonts of the contents */
+.container2 {
+  margin-top: -100px;
+  width: 50%;
+  height: 90%;
+
+}
+
+ 
+ /* fixing the applied and status  */
+
+ .appl {
+  font-size: x-small;
+   }
+  
+   .status {
+     font-size: x-small;
+   }
+
+ h2, h3{
+margin-left: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+.eui {
+  font-size: 10px;
+}
+ /* fixing the first name input */
+ #first {
+  width: 170px;
+
+
+}
+ /* fixing the last name input */
+ #last {
+  width: 170px;
+
+}
+ 
+ /* fixing the email address input */
+ #email {
+  width: 170px;
+ }
+
+ /* fixing the phone number input */
+ #phone {
+  width: 170px;
+ }
+
+ /* fixing the checkbox and the agreement */
+ #checkbox {
+margin-left: 30px;
+}
+.agree {
+  font-size: small;
+}
+
+
+
+/* fixing the drive with us button */
+ .drive {
+  width: 170px;
+  font-size: 15px;
+
+ }
+
+  
+  /* ----changing the footer ----*/
+  /* Changing the footer colors, background and rerranging it*/
+  footer {
+margin-top: 200px;
+    height: 40px;
+     background-color: #fffd8c;
+
+  
+  }
+  .container3 {
+  
+    background-color: #fffd8c;
+    padding-bottom: 10px;
+  }
+  
+  /* Changing the forms contents in the footer & organizing them */
+.note {
+  margin-left: -10px;
+}
+  .hcc, .calculate {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*  change the hours margin and the hours input width*/ 
+  .hours {
+
+    margin-left: -40px;
+  }
+  
+  
+  .hours input{
+    width: 80px;
+
+  }
+  
+  /* change the city */
+  
+  .city {
+    margin-right: 10px;
+    margin-left: -50px;
+  }
+  
+  .city input {
+width: 200px;
+  }
+  
+   /* change the calculate */
+  .calculate {
+
+  width: 290px;
+  height: 30px;
+  margin-left: -25px;
+  }
+  
+  
+  
+}
