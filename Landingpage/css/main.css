@@ -305,7 +305,7 @@ margin-bottom: 50px;
 
   
 /* ========Desktop Style========= */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 1920px) {
   
   /* change the size of the background image */
 
@@ -320,6 +320,11 @@ margin-bottom: 50px;
   
   .container3 {
     padding-bottom: 2rem;
+  }
+  
+  /* changing the checkbox location */
+  #checkbox {
+    margin-left: 35px;
   }
 
   /* change the footer location */
