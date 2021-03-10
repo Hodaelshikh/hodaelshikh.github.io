@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototype</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <!--Adding the libre cormorant family font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <!--Adding the style, about and contact links-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="about.html">
+
+</head>
+
+<body class="contactbody">
+  <!--adding page logo-->
+  <!--Site header-->
+  <header>
+    <img class="contactlogo" src="images/logocontact.png" alt="logo">
+  </header>
+  <!-- starting the main content of the page -->
+
+  <main class="contact">
+    <!--Adding the banner (navigation list of the contact and about pages) -->
+    <nav class="main-navcontact">
+      <ul class="nav-listcontact">
+        <li class="navhome"><a href="index.html">Home</a></li>
+        <li class="navabout"><a href="about.html">About</a></li>
+        <li class="navblog"><a href="Blog">Blog</a></li>
+        <li class="navcontact"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+    <!--contact us -->
+    <div class="gridcontainer">
+      <div class="hocontact">
+        <h3 class="contactush3">Contact Us</h3>
+
+        <table class="hours">
+          <caption class="ho">Hours of Operation</caption>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mon - Fri</td>
+              <td>6 AM - 9 PM</td>
+            </tr>
+            <tr>
+              <td>Sat</td>
+              <td>8 AM - 11 PM</td>
+            </tr>
+            <tr>
+              <td>Sun</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <h3 class="hearcontact">We love to hear from you!</h3>
+        <!--adding send us for contact by email and animate it-->
+        <div class="sendemail">
+          <a href="mailto:elsh0034@algonquinlive.com"><button class="senduscontact">Send
+              Us</button></a></div>
+
+      </div>
+
+
+      <!--Adding form-->
+      <div class="formcontact">
+        <form>
+          <div class="containercontact">
+            <h3 class="eui">Enter your info below to contact you.</h3>
+            <fieldset>
+              <input type="text" id="first" placeholder="First name" name="First name">
+            </fieldset>
+            <fieldset>
+              <input type="text" id="last" placeholder="Last name" name="Last name">
+            </fieldset>
+            <fieldset>
+              <input type="text" id="email" placeholder="Email address" name="Email address">
+            </fieldset>
+            <fieldset>
+              <input type="text" id="phone" placeholder="Phone number" name="Phone number">
+            </fieldset>
+
+            <!--Adding the submit input button-->
+            <div class="submitcontact">
+              <input id="submit" type="submit" value="submit">
+            </div>
+            <div>
+              <input type="checkbox" id="policies" name="policies" checked>
+              <label class="agreecontact" for="policies">I agree with the Terms and Policies.</label>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!--Location Section-->
+  <section class="locationcontact">
+    <div class="containercontactloc">
+      <h3 class="location">Location</h3>
+      <iframe class="mapcontact"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.3471322803816!2d-75.93532198444736!3d45.32161227909947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd20039370ea7df%3A0x2f35d4371206b3ff!2s1026%20Ottenbrite%20Cres%2C%20Kanata%2C%20ON%20K2T%200G2!5e0!3m2!1sen!2sca!4v1614816933070!5m2!1sen!2sca"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+  </section>
+
+
+  <!-- website footer -->
+  <!--Adding the footer which includes the socialmedia icons and the copy rights-->
+  <footer>
+
+
+
+    <div class="footercontact">
+
+      <div class="socialcontact">
+        <div><a href="https://www.instagram.com/hoda_elshiekh/"><img class="instcontact" src="icons/instagram.svg"
+              alt="instagram icon"></a></div>
+        <div><a href="https://twitter.com/home"><img class="twitcontact" src="icons/twitter.svg" alt="twitter icon"></a>
+        </div>
+        <div><a href="https://www.facebook.com/profile.php?id=100028952040969"><img class="facecontact"
+              src="icons/facebook.svg" alt="facebook icon"></a></div>
+
+      </div>
+
+      <p class="copycontact">
+        Copyright © 2021 Hoda Photography.<br>
+        All Rights Reserved Photo Journal by Catch Themes<br>
+
+      </p>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
