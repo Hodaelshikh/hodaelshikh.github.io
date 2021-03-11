@@ -990,7 +990,7 @@ body {
 /* Fixing the about us paragraph, mission and vision */
 .aboutus {
   color: white;
-  background-image: url(images/hanna-postova-SAYSiIaS6VU-unsplash\(1\).jpg);
+  background-image: url(Images/hanna-postova-SAYSiIaS6VU-unsplash\(1\).jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1007,7 +1007,6 @@ body {
 .aboutus:hover {
   background-image: url(images/james-wainscoat-bsOrJ05Oq6o-unsplash\(1\).jpg);
 }
-
 .missionabout,
 .visionabout {
   font-size: 25px;
