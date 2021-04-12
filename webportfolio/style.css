@@ -200,7 +200,9 @@ body {
 
 
 /*--removing the borders--*/
-#lining, #lining1, #lining3 {
+#lining,
+#lining1,
+#lining3 {
     border: 0px;
 }
 
