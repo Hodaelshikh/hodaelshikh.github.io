@@ -9,5 +9,11 @@ About page: in this page there is information about me  and the image i played a
 Portfolio page: is the page that represents my all skills and some examples of my work.All the photos are taken and done by me. Only two photos in the more skills section in the web development and quickbook are taken from unsplash website.
 Contact page:  the last page represents a form and button to send me an email. The image is taken from unsplash website.
 
+The barriers i faced:
+Trying to use java script and some plug ins for more animation but faced some difficulties in applying it to be pushed in github so i had to remove them and use only what i have learned in this semester. In addition, even though its easy using css with the bootstrap but still not many options can be added especially that i used the bootstrap as the basic to give the responsive and well-organized website.But i played with some css animations and the colors to give me better satisfying results.
+
+
+
 References:
 https://unsplash.com/
+https://icons8.com/icons/set/social-media-icons
