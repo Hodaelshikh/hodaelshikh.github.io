@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Adding the title-->
+
+  <title>Web-portfolio</title>
+  <!--Adding the raleway family font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+    <!--Adding fontawesome icons-->
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <!-- Adding Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!--Adding the Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+
+  <!--Adding the style css links-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<!--Adding the body of the page-->
+
+<body>
+  <!--Adding nav bar with a logo that represents the web portfolio-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <div class="container-fluid">
+      <!--Adding the home page as a link when we press on the logo-->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/mylogo.png" alt="logo" width="100" height="60" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Adding the navigation bar of all the pages-->
+      <div class="collapse navbar-collapse fw-normal" id="navbarNavAltMarkup">
+        <div class="m-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <!--Adding the social media contact-->
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/hoda-elshikh-3521761ba/"><img
+                src="images/lin.svg"  id="linkedin"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Adding the header-->
+
+  <header class="offset-1">
+    <div class="container">
+
+      <!-- Adding the website title name -->
+      <h1 class="display-4 text-dark contacttext">CONTACT ME</h1>
+
+    </div>
+  </header>
+
+
+  <!--Adding the main page-->
+
+  <div class="main-contact">
+
+    <div class="container">
+      <div class="row">
+        <!--Adding the form of the contact-->
+        <!--Adding background shadow to the form-->
+        <div class="col-sm-6 shadow p-3 mb-5 rounded">
+          <div class="card-body">
+
+            <div class="mb-3">
+              <label for="nameform" class="form-label">Name</label>
+              <input type="email" class="form-control" id="nameform" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="emailaddressform" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailaddressform" placeholder="Your Email Address">
+            </div>
+            <div class="mb-3">
+              <label for="subjectform" class="form-label">Subject</label>
+              <input type="email" class="form-control" id="subjectform" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div>
+              <div class="sendicon">
+                <a href="mailto:hodaelshikh83@hotmail.com" class="btn p-3 fw-bold btn-info text-dark">Send</a>
+              </div>
+            </div>
+            <!--Adding the blockquote-->
+            <figure class="text-center ">
+              <blockquote class="blockquote">
+                <p class="pt-4">“Talent hits a target no one else can hit. Genius hits a target no one else can see”</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">Arthur Schopenhauer<cite title="Source Title"></cite>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+
+
+
+        <!--Adding the image beside the form-->
+        <div class="col-sm-6 shadow p-3 mb-5 rounded">
+          <div class="card-body">
+            <img src="images/camera.jpg" class="card-img-top" alt="design" id="shadowimage" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--Adding the footer-->
+  <footer class="bg-dark text-center text-white pt-2">
+    <!-- Adding a container -->
+    <div class="container p-3">
+
+      <!-- Adding the contact information section -->
+      <section class="contactinformation">
+        <!--Adding the contact information-->
+        <div class="row">
+          <!--Grid column of the email addresse-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <img src="images/blue.png" id="icon"alt="envelope" />
+            <h6 class="pt-3">Email Addresse</h6>
+            <a class="text-white" style="text-decoration: none;">hodaelshikh83@hotmail.com</a>
+          </div>
+
+          <!--Grid column of the phone number-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <img src="images/bluephone.png" id="icon"alt="cellphone" />
+            <h6 class="pt-2">Phone number</h6>
+
+            <a class="text-white" style="text-decoration: none;">613-220-2409</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Adding the Copyright -->
+    <div class="text-center p-3 bg-dark" id="copy">
+      © 2022 Copyright.HodaElshikh</div>
+  </footer>
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

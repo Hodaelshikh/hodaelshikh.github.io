@@ -1,0 +1,230 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* --Adding roots for the colors */
+:root {
+    --blue: #1e90ff;
+    --lightblue: #EBF7F8;
+    --electric: #7EF9FF;
+    --lightgrey: #cdd2d5;
+    --lightbeige: #CCCCCC;
+    --greybeige: #bbb;
+    --mediumbeige: #c9c9c9;
+    --black: #000000;
+    --white: #ffffff;
+    --sapphire: #0F52BA;
+    --skyblue: #77A1D3;
+    --lightgreen: #79CBCA;
+    --offwhite: #eee;
+    --blackshadow: rgba(0, 0, 0, .1);
+    --mediumblack: rgba(0, 0, 0, .2);
+    --darkershadow: rgba(0, 0, 0, .25);
+    --gradient-color: linear-gradient(to right, #EBF7F8 0%, #79CBCA 50%, #77A1D3);
+}
+
+#text-shadow {
+        text-shadow: 2px 2px lightblue;
+}
+ #linkedin {
+     width: 50px;
+ }
+ #icon {
+     width: 50px;
+ }
+/*----Fixing the navigation font size----*/
+.nav-link {
+    font-size: 20px;
+}
+
+/*---fixing the footer--*/
+/*--Changing the copyright size---*/
+#copy {
+    font-size: 13px;
+}
+
+/* ===Changing in the home page (index)=== */
+/*---changing the background color shadow of the home page image and text--*/
+#homeshadow {
+    box-shadow: 10px 5px 5px var(--lightblue);
+}
+
+/* Changing the button color */
+.btn {
+    background-color: var(--lightblue);
+
+}
+
+.btn {
+
+    background-image: var(--gradient-color);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--white);
+    box-shadow: 0 0 20px var(--offwhite);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center;
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*--Adding background color shadows to the text beside the image-- */
+#hello {
+
+    text-shadow: 0 1px var(--electric), -1px 0 var(--lightgrey), -1px 2px var(--lightblue), -2px 1px var(--lightgrey), -2px 3px var(--lightblue), -3px 2px var(--lightgrey), -3px 4px var(--lightblue), -4px 3px var(--lightgrey), -4px 5px var(--lightblue), -5px 4px var(--lightgrey), -5px 6px var(--lightblue), -6px 5px var(--lightgrey), -6px 7px var(--lightblue), -7px 6px var(--lightgrey), -7px 8px var(--lightblue), -8px 7px var(--lightgrey);
+}
+
+
+
+
+
+
+/*====Changing in the about page====*/
+
+
+/*--Adding shadow to the about text--*/
+.aboutheader {
+    color: var(--electric);
+    text-shadow: 0 1px 0 var(--lightbeige), 0 2px 0 var(--mediumbeige), 0 3px 0 var(--greybeige), 0 6px 1px var(--blackshadow), 0 0 5px var(--blackshadow), 0 1px 3px var(--blackshadow), 0 3px 5px var(--mediumblack), 0 5px 10px var(--darkershadow), 0 10px 10px var(--mediumblack), 0 20px 20px var(--darkershadow);
+
+}
+
+/*--Adding shadow to the card of the text of about me--*/
+#shadowtextabout {
+    box-shadow: 0px 6px 6px 6px var(--skyblue);
+}
+
+/*--Adding an animation to the image in the about page--*/
+#imageabout {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float: left;
+    box-shadow: 5px 5px 10px var(--skyblue);
+}
+
+#imageabout {
+    border: 5px solid var(--offwhite);
+    display: block;
+}
+
+#imageabout:after {
+    border: 1px solid var(--lightgreen);
+    top: -10px;
+    left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+
+/* the nail for swing */
+#imageabout:before {
+    top: -14px;
+    left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: var(--skyblue);
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+/*--Removing the outline border of the image--*/
+#bordercard {
+    border: 0px;
+}
+
+
+/*==Changing in the portfolio page==*/
+/*--Adding an animated bar--*/
+.baranimate {
+    color: var(--offwhite);
+    float: left;
+    margin-right: 2%;
+}
+
+.coloring {
+    background-color: var(--black);
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.movement {
+    background-color: var(--lightblue);
+    height: 100%;
+    width: 20%;
+
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+    animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye {
+    from {
+        margin-left: -20%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+@keyframes move_eye {
+    from {
+        margin-left: -20%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+
+
+
+/*--removing the borders--*/
+#lining,
+#lining1,
+#lining3 {
+    border: 0px;
+}
+
+
+
+
+
+/* ===Changing in the contact page === */
+
+#shadowimage {
+    box-shadow: 20px 10px 10px var(--lightblue);
+    border-radius: 20px;
+}
+
+.sendicon {
+    display: flex;
+    justify-content: center;
+
+}
