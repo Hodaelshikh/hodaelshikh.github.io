@@ -25,6 +25,10 @@ body {
     --darkershadow: rgba(0, 0, 0, .25);
     --gradient-color: linear-gradient(to right, #EBF7F8 0%, #79CBCA 50%, #77A1D3);
 }
+/*.clrd {
+    width: 400px;
+}
+*/
 
 #text-shadow {
         text-shadow: 2px 2px lightblue;
