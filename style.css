@@ -113,7 +113,10 @@ body {
 #shadowtextabout {
     box-shadow: 0px 6px 6px 6px var(--skyblue);
 }
-
+/*change*/
+.card-text {
+    margin-bottom: auto;
+}
 /*--Adding an animation to the image in the about page--*/
 #imageabout {
     animation: swing ease-in-out 1s infinite alternate;
