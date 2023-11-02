@@ -112,6 +112,7 @@ body {
 /*--Adding shadow to the card of the text of about me--*/
 #shadowtextabout {
     box-shadow: 0px 6px 6px 6px var(--skyblue);
+    margin-bottom: 6px;
 }
 /*change*/
 .card-text {
